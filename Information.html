@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <header style="background-color: cyan; text-align:center; padding: 10px;">
+            <h1>Student Registration Form</h1>
+           
+        </header>
+
+        <nav style="background-color: pink; text-align:center; padding: 10px">
+            <a href="Home.html">Home</a>
+            <a href="Information.html">Registration Form</a>
+            <a href="tables.html">Tables</a>
+             <a href="profile.html">My Profile</a>
+        </nav>
+
+        <form>
+           <h3>Student Name: </h3>
+            <textarea rows="2";  name="StudentName" placeholder="Enter your Name"></textarea>
+        </form>
+
+        <form>
+           <h3>Student Number: </h3>
+            <textarea rows="2";  name="StudentNumber"  placeholder="Enter your Student Number"></textarea>
+        </form>
+
+         <form>
+           <h3>Email: </h3>
+            <textarea rows="2";  name="Email"  placeholder="Email"></textarea>
+        </form>
+
+        <form>
+            <h3>Gender:</h3>
+            <input type="radio" name="Gender" value="male">Male
+             <input type="radio" name="Gender" value="female">Female
+        </form>
+
+        <form>
+            <h3>Course: </h3>
+            <select name="dropdown">
+                <option value="bscs" selected>BSCS</option>
+                <option value="bsit" selected>BSIT</option>
+            </select>
+        </form>
+
+        <form>
+            <h3>Skills:</h3>
+            <input type="radio" name="Course" value="html">HTML
+             <input type="radio" name="Course" value="css">CSS
+            <input type="radio" name="Course" value="JavaScript">JavaScript
+        </form>
+
+        <form>
+              <h3>Upload File:</h3>
+            <input type="file" name="fileupload" accept="/*">
+        </form>
+    </div>
+</body>
+</html>
